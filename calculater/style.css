@@ -1,0 +1,72 @@
+.maincontainer{
+    background-color: rgba(255, 255, 255, 0.801);
+    width: 15rem;
+    height: 22rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.1rem 0.2rem 1rem 0.5rem  rgb(154, 213, 228) ;
+
+}
+.topcont{
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    background-color: #ffff;
+    margin-left: 0.8rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: -5px -2px 5px  rgba(44, 49, 51, 0.308),
+                5px 2px 5px  rgba(65, 68, 70, 0.308);
+    border-radius: .8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(92, 210, 240, 0.623);
+    border: none;
+
+}  /* box-shadow first two values are top and bottom (if +->right, if - -> left) third value for blur*/
+
+.display:hover{
+    background-color: rgb(123, 214, 241);
+    color: rgb(237, 238, 236);
+}
+
+.display1{
+    background-color: #ffff;
+    box-shadow: 5px 2px 5px 1px rgba(71, 191, 228, 0.308);
+    border-radius: .8rem;
+    margin-left: 0.8rem;
+    width: 6.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(92, 210, 240, 0.623);
+    border: none;
+}
+.display1:hover{
+    background-color: rgb(123, 214, 241);
+    color: rgb(237, 238, 236);
+}
+
+
+.maincls{
+    height: 2.3rem;
+    width: 12rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    color: rgb(50, 155, 155);
+    border: none;
+    background-color: rgb(25, 136, 170);
+    color: rgb(237, 238, 236);
+   
+   
+}
+.inputdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+    
+ 
+}
